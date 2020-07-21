@@ -1,4 +1,4 @@
-Professional portfolio website of Denis Komarov, Master of Information Technology and Management, IIT.
+Professional portfolio for Denis Komarov, M.S. Information Technology & Management, IIT.
 
-[View it Live](https://dkomarov.github.io/)
+## [View it Live](https://dkomarov.github.io/)
 
