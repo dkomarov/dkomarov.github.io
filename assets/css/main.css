@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -3950,7 +3951,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 3em 3em 1em 3em ;
+					padding: 3em 3em 1em 3em;
 					width: 100%;
 				}
 
@@ -3985,7 +3986,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 2em 2em 0.1em 2em ;
+					padding: 2em 2em 0.1em 2em;
 				}
 
 				.wrapper.spotlight .inner {
