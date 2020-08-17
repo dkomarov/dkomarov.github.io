@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -2667,6 +2668,10 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+	ul.odd {
+		list-style: none;
+	}
+
 /* Contact */
 
 	ul.contact {
@@ -3291,11 +3296,11 @@ input, select, textarea {
 
 		#menu .inner {
 			padding: 2.5em 1.5em 0.5em 1.5em ;
-			-moz-transform: translateY(0.5em);
+			/* -moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
 			transform: translateY(0.5em);
-			/* -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
 			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease; */
@@ -3387,10 +3392,10 @@ input, select, textarea {
 	}
 
 		body.is-menu-visible #menu .inner {
-			-moz-transform: translateY(0);
+			/* -moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
-			transform: translateY(0);
+			transform: translateY(0); */
 			opacity: 1;
 		}
 
@@ -3458,19 +3463,19 @@ input, select, textarea {
 			/* -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease; */
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			/* -moz-transition-delay: 0.8s;
+			-moz-transition-delay: 0.8s;
 			-webkit-transition-delay: 0.8s;
 			-ms-transition-delay: 0.8s;
-			transition-delay: 0.8s; */
+			transition-delay: 0.8s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
-			filter: blur(0);
+			filter: blur(0); */
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
@@ -3534,10 +3539,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #banner .logo {
-			-moz-transform: translateY(0.5em);
+			/* -moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
-			transform: translateY(0.5em);
+			transform: translateY(0.5em); */
 			opacity: 0;
 		}
 
@@ -3946,7 +3951,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 3em 3em 1em 3em ;
+					padding: 3em 3em 1em 3em;
 					width: 100%;
 				}
 
@@ -3981,7 +3986,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 2em 2em 0.1em 2em ;
+					padding: 2em 2em 0.1em 2em;
 				}
 
 				.wrapper.spotlight .inner {
