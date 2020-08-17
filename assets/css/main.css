@@ -2667,6 +2667,10 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+	ul.odd {
+		list-style: none;
+	}
+
 /* Contact */
 
 	ul.contact {
