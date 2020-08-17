@@ -3040,6 +3040,15 @@ input, select, textarea {
 					width: 100%;
 				}
 
+			#features-six img {
+				margin-bottom: 15px;
+			}
+
+			#features-six a, h3 {
+				margin: 0% 28% 0% 28%;
+				text-align: center;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.features article {
